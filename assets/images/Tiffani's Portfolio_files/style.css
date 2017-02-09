@@ -1,0 +1,57 @@
+
+
+
+body {
+	background: blue;
+	width: 960px;
+}
+
+.container {
+
+}
+
+/**this holds about me and media boxes. Need to make resizable with page.**/
+.row {
+	background-color: red;
+}
+
+.panel-heading {
+	color: #4aaaa5;
+
+}
+
+p {
+	font-family: georgia;
+	font-size: 20px;
+	font: #696969;
+}
+
+/** About me **/
+.panel-primary {
+	position: relative;
+	width: 500px;
+	background-color: white;
+	padding: 20px;
+	margin: 40px;
+}
+
+/** Media **/
+.contact-media {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	padding: 20px;
+	margin: 20px;
+	position: absolute;
+	bottom: 75px;
+	right: -340px;
+	
+	
+
+}
+
+.copyright {
+	width: 960px;
+	background-color: black;
+	
+}
