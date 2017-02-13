@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
 	<title>Contact Tiffani</title>
 
-	<!--Linking normalize css get reset code-->
-	<!--<link rel="stylesheet" type="text/css" href="normalize.css">-->
+  <!--Linking reset css get reset code-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
 
 	<!--Linking assets folder-->
 	<link rel="stylesheet" type="text/css" href="assets/css/mainstyle.css">
+</head>
 	
-<meta charset="utf-8">
+
 	<body>
-		<header><div class="nameheader">Tiffani Elmore</div></header>
-			<ul>
-  				<li><a href="index.html">About</a></li>
-  				<li><a href="portfolio.html">Portfolio</a></li>
- 			 	<li><a href="contact.html">Contact</a></li>
-			</ul>
+		<header>
+      <div class="nameheader">
+        <a href="index2.html" id="logo">Tiffani Elmore</a>
+        <nav>
+          <a href="index2.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-		<div class="container"><!--This container should hold contact form and contact media section-->
-  			<section><!--Contact me section-->
-  				<div class="about-heading"><h1>Contact Me</h1></div>
-  					<div id="form">
-  						<form>
-  							Name: <br>
-  							<input type="text" name="Jane Smith" id="Jane Smith">
-  							<br>
-  							Email: <br>
-  							<input type="text" name="example:janesmith@gmail.com" id="janesmithz@gmail.com">
-  							<br>
-  							Message: <br>
-  							<textarea placeholder="Message" name="Message"></textarea>
-  						</form>
-
-  					</div>
+		<div id="main-container" class="container"><!--This container should hold contact form and contact media section-->
+  			<section class="about-heading"><!--Contact me section, may want to rename to main-selection-->
+  				<h1>Contact Me</h1>
+  					<form id="contact-form"/>
+  						<ul>
+                <li>
+  							<label for="name">Name</label>
+  							<input type="text" name="name" placeholder="Jane Smith" id="name" required="required">
+  							</li>
+                <li>
+                <label for="email">Email</label>
+  							<input type="text" name="email" placeholder="example:janesmith@gmail.com" id="email">
+  						  </li>
+                <li>
+                <label for="message">Message</label>
+  							<textarea id="message" name="Message" required="required"></textarea>
+                </li>
+              </ul>
+  					</form>
+        </section>
 						
-  			</section>
-  		
-  			<aside><!--aside bar for connect with me media links-->
-  				<div>
-  					<div class="connect-heading"><h1>Connect with Me</h1></div>
-						<button class="btn" id="github"></button>
-						<button class="btn" id="linkedin"></button>
-						<button class="btn" id="stackoverflow"></button>
-  				</div>
-  			</aside>
-		</div>
+  			<section class="sidebar"><!--side bar for connect with me media links-->
+          <div id="connect-heading">
+            <h1>Connect with Me</h1>
+             <a href="#"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+              <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+              <a href="#"><img src="assets/images/stackover.png" class="social" alt="Stack Overflow" /></a>
+          </div>
+        </section>
+		  </div>
 
-		<footer>@Copyright 2017 Tiffani Elmore</footer>
+		<footer>
+      <div class="container">
+        @Copyright 2017 Tiffani Elmore
+      </div>  
+    </footer>
+
 	</body>
 </html>

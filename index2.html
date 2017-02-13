@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
 	<title>Tiffani's Portfolio</title>
 
-	<!--Linking normalize css get reset code-->
-	<!--<link rel="stylesheet" type="text/css" href="normalize.css">-->
+	<!--Linking reset css get reset code-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">	
 
 	<!--Linking assets folder-->
-	<link rel="stylesheet" type="text/css" href="assets/css/mainstyle.css">
-	
+	<link rel="stylesheet" type="text/css" href="assets/css/mainstyle.css">	
 </head>
-<meta charset="utf-8">
-	<body>
-		<header><div class="nameheader">Tiffani Elmore</div></header>
-			<ul>
-  				<li><a href="index.html">About</a></li>
-  				<li><a href="portfolio.html">Portfolio</a></li>
- 			 	<li><a href="contact.html">Contact</a></li>
-			</ul>
 
-		<div class="container"><!--This container should hold about me and contact media section-->
-  			<section><!--About me section-->
-  				<div class="about-heading"><h1>About Me</h1></div>
-						<img src="IMG_0756.jpg" ALIGN=”left”/>
-						<p>Welcome to my portfolio and thanks for taking the time to look at my work. I'm currently a student at Northwestern's Coding Boot Camp. My goal is to learn how to efficiently approach web design while maximizing user-friendliness. I enjoy evaluating applications and finding ways to improve them.</p>
-
-						<p>When I'm not at my computer, I'm usually cooking for myself and my instagram page, or making wacky cat toys for my two kitties.</p>
-  			</section>
-  		
-  			<aside><!--aside bar for connect with me media links-->
-  				<div>
-  					<div class="connect-heading"><h1>Connect with Me</h1></div>
-						<button class="btn" id="github"></button>
-						<button class="btn" id="linkedin"></button>
-						<button class="btn" id="stackoverflow"></button>
-  				</div>
-  			</aside>
+<body>
+	<header>
+		<div class="nameheader">
+			<a href="index2.html" id="logo">Tiffani Elmore</a>
+			<nav>
+  				<a href="index2.html">About</a>
+  				<a href="portfolio.html">Portfolio</a>
+ 			 	<a href="contact.html">Contact</a>
+			</nav>
 		</div>
+	</header>
 
-		<footer>@Copyright 2017 Tiffani Elmore</footer>
-	</body>
+	<div id="main-container" class="container"><!--This container should hold about me and contact media section-->
+  		<section class="about-heading"><!--About me section-->
+  			<h1>About Me</h1>
+				<img src="assets/images/IMG_0756.jpg" alt="name" />
+				<p>Welcome to my portfolio and thanks for taking the time to look at my work. I'm currently a student at Northwestern's Coding Boot Camp. My goal is to learn how to efficiently approach web design while maximizing user-friendliness. I enjoy evaluating applications and finding ways to improve them.</p>
+
+				<p>When I'm not at my computer, I'm usually cooking for myself and my instagram page, or making wacky cat toys for my two kitties.</p>
+  		</section>
+  		
+  		<section class="sidebar"><!--side bar for connect with me media links-->
+  			<div id="connect-heading">
+  				<h1>Connect with Me</h1>
+					<a href="#"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+        			<a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+        			<a href="#"><img src="assets/images/stackover.png" class="social" alt="Stack Overflow" /></a>
+  			</div>
+  		</section>	
+	</div>
+
+	<footer>
+		<div class="container">
+			@Copyright 2017 Tiffani Elmore
+		</div>	
+	</footer>
+</body>
+
 </html>
