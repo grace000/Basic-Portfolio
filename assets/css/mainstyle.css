@@ -1,0 +1,118 @@
+
+body {
+  color: #777777;
+  background-color: url("images/old_moon.png");
+  background-color: url("images/IMG_0756.jpg")
+  font: 200 14px/24px Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  width: 960px;
+}
+
+header {
+  background-color: #ffffff;
+  height: 60px;
+  border-bottom: 10px;
+  border-color: #cccccc;
+
+}
+
+.nameheader {
+  width: 100px;
+  height: 50px;
+  background-color: #4aaaa5;
+  padding: 13px;
+  margin-left: 43px;
+  display: inline-block;
+  overflow: auto;
+  color: #ffffff;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.container {
+  background: url("images/IMG_0756.jpg");
+  width: 960px;
+  *zoom: 1;
+}
+
+.container,
+section,
+aside {
+  
+}
+
+section,
+aside {
+  background: #ffffff;
+  margin: 10px;
+  padding: 20px 0;
+  
+}
+
+section {
+  float: left;
+  width: 560px;
+  margin-left: 40px;
+  padding: 30px;
+  text-align: left;
+}
+
+h1 {
+  color: #4aaaa5;
+}
+
+
+img {
+  float: left;
+  clear: both;
+  padding-right: 15px;
+}
+
+aside {
+  float: right;
+  width: 220px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 30;
+  background-color: #666666;
+  height: 60px;
+  text-align: center;
+}
+
+#name {
+  width:400px;
+  height: 30px;
+  padding: 5px;
+}
