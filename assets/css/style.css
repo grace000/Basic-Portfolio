@@ -15,6 +15,12 @@ body {
 
 /*header*/
 
+.indextabs {
+	width: 270px;
+	float: right;
+	text-align: right;
+}
+
 .navheader {
 	height: 53px;
 	max-width: 960px;
@@ -31,10 +37,9 @@ body {
     padding-top: 30px;
     overflow: hidden;
     background-color: #4aaaa5;
-    float: right;
+    float: left;
     height: 78px;
 	width: 250px;
-	position: fixed;
 	text-align: center;
 	font-weight: 700;
 	font-size: 30px;
@@ -51,7 +56,6 @@ body {
 
 nav a {
 	text-decoration: none;
-	float: right;
 	padding-left: 15px;
 	padding-right:15px;
 	border-right: 1px solid #999;
@@ -161,12 +165,7 @@ p:last-child {
 	background-color: white;
 	padding: 30px;
 	margin-bottom: 20px;
-	float: right;
-	/*right: 100px;
-	position: relative;
-	top:125px;
-	left: 680px;*/		
-
+	float: right;	
 }
 
 .connect-heading h1 {
@@ -183,7 +182,7 @@ p:last-child {
 /*footer*/
 
 footer {
-  padding-top: 30px;
+  padding-top: 25px;
   background-color: #666666;
   color: #ffffff;
   height: 85px;
