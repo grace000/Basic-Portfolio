@@ -93,7 +93,7 @@ nav {
 
 .main-section {
 	color: #777777;
-	width: 50%;
+	width: 65%;
 	max-width: 650px;
 	float: left;
 	margin: 0 0 40px 0;
@@ -155,7 +155,7 @@ p:last-child {
 
 /** Media **/
 .sidebar {
-	width: 50%;
+	width: 35%;
 	max-width: 270px;
 	height: 200px;
 	background-color: white;
